@@ -1,0 +1,122 @@
+
+body {   
+      margin: 0px; 
+      width: 100%;
+      height: 100%;
+}
+
+header {
+        padding-top: 25px;
+        background-color: rgba(130, 0, 0, 0);
+}
+
+header nav {
+    margin-left: none;
+    width: auto;
+}
+
+header nav ul li {
+    text-decoration: none;
+    display: inline;
+
+    line-height: 40px;
+    font-size: 22pt;  
+    margin-left: 25px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none; /* supression des puces et des marges pour les menus et sous-menus*/ 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} 
+
+header nav ul li a:hover {
+    color: rgb(255, 0, 0);
+} 
+
+section { 
+       padding-left: 20px;
+       border-left: 20px;     
+}
+
+p {    
+      
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: transparent; 
+       
+}
+
+div {
+    width: auto; 
+    font-size: 14pt; 
+    margin-top: 0px;
+    width: 50%;
+    margin-left: 25%;  
+    color: rgb(255, 255, 255); 
+    /*background-color: rgb(255, 255, 255);
+    border-radius: 25px;*/
+}
+
+.titre {
+    font-size: 35pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    text-shadow: 20px; 
+} 
+
+.parallax {
+    background-image: url(/images/background.jpg);background-size: 100%;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;  
+}
+
+img {
+    border-radius: 25px;
+    width: 100%;  
+}
+
+footer {
+    display: inline;
+    color: white;  
+}
+
+.contact{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
+.bigger{
+    font-size: 28pt;
+    text-decoration: underline;
+    margin-top: none;
+    margin-bottom: none;
+}
+
+p a {
+    color: rgb(27, 136, 144);
+}
+a {
+    color: rgb(27, 136, 144);
+    text-align: center;
+}
+
+
+
